@@ -154,7 +154,7 @@ export default function Login(props) {
           }
         })}
         <button type="submit" className="btn btn-outline-info mt-3">
-          {loading ? <i className="spinner-border"></i> : "Register"}
+          {loading ? <i className="spinner-border"></i> : "Login"}
         </button>
       </form>
     </div>
